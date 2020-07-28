@@ -1,0 +1,37 @@
+{
+  "name": "Countdown",
+  "control_ui": "control.html",
+  "options": [{
+    "title": "Presentation",
+    "type": "section"
+  }, {
+    "title": "Foreground",
+    "ui_width": 4,
+    "name": "fg",
+    "type": "color",
+    "default": [1, 1, 1, 1]
+  }, {
+    "title": "Background",
+    "ui_width": 4,
+    "name": "bg",
+    "type": "color",
+    "default": [0, 0, 0, 1]
+  }, {
+    "title": "Font Size",
+    "ui_width": 4,
+    "name": "size",
+    "type": "select",
+    "options": [
+        [5, "Small"],
+        [4, "Middle"],
+        [3, "Large"]
+    ],
+    "default": 4
+  },
+  
+  {
+    "title": "Controlling",
+    "type": "section",
+    "intro": "You cannot control the countdown from this page. Instead, assign this setup to a device, then visit the device page. You'll find a new control panel with buttons to control the countdown."
+  }]
+}
