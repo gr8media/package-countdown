@@ -4,7 +4,7 @@
     "desc": "A remote controllable countdown timer",
     "repository": "https://github.com/info-beamer/package-countdown",
     "platforms": ["pi/v6", "pi/v7", "pi/v8"],
-    "version": "1",
+    "version": "2",
     "offline": {
         "support": "no",
         "info": "Needs to be remote controlled"
